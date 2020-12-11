@@ -1,0 +1,146 @@
+*{
+    font-family: 'Noto Serif', serif;
+    /* color: #666666; */
+}
+p{
+    font-size: 19px;
+    word-spacing: 1px;
+    line-height: 2.1rem;
+}
+.slider{
+    margin-top: 60px;
+    margin-bottom: 70px;
+}
+.carousel-captions{
+    position: absolute;
+    bottom: 0px;
+    z-index: 10;
+    color: black;
+    background-color: rgba(206,212,218,0.5);
+    padding-top: 10px;
+}
+.slider h5{
+    padding-bottom: 20px;
+}
+.blog{
+    margin-bottom: 70px;
+}
+.blog .col-md-4{
+    margin-bottom: 25px;
+}
+.blog-item{
+    padding: 5px;
+}
+.blog-item i{
+    font-size: 60px;
+    color: black;
+    padding-left: 111px;
+    padding-bottom: 20px;
+}
+.btn-blog{
+    float: right;
+    background-color: white;
+    color: #666666;
+    border: 1px solid #666666;
+    border-radius: 0;
+    padding: 12px 25px;
+    font-size: 21px;
+}
+.blog .btn-blog:hover{
+    background-color: #666666;
+    color: white;
+    transition: all 0.1s ease-in-out;
+}
+.timeline{
+    margin-bottom: 70px;
+}
+.timeline .col-md-6{
+    margin-bottom: 25px;
+}
+.timeline .card-body{
+    padding: 0;
+    background: #f4f4f4;
+}
+.timeline .time-par{
+    padding: 35px;
+}
+.btn-detail{
+    background-color: white;
+    color: #666666;
+    border: 1px solid #666666;
+    border-radius: 0;
+    padding: 10px 40px;
+    font-size: 21px;
+}
+.btn-detail:hover{
+    background-color: #666666;
+    color: white;
+    transition: all 0.1s ease-in-out;
+}
+.bg-photo{
+    background-image: url(../images/tm-bg-section-4.jpg);
+    height: 320px;
+    background-attachment: fixed;
+    margin-bottom: 70px;
+    margin-left: 1px;
+    margin-right: 1px;
+}
+.mac{
+    margin-bottom: 70px;
+}
+.mac .col-lg-4{
+    padding: 0;
+}
+.mac .mac-item{
+    display: flex;
+    margin-bottom: 20px;
+}
+.mac .mac-text{
+    padding: 21px 14px;
+    background-color: #f4f4f4;
+}
+.contact{
+    margin-bottom: 35px;
+}
+.contact .form-control{
+    border-radius: 0;
+    padding: 28px;
+    font-size: 22px;
+}
+.btn-contact{
+    background-color: white;
+    border: 1px solid #ced4da;
+    padding: 11px 30px;
+    font-size: 22px;
+    border-radius: 0;
+    color: #495057;
+}
+.btn-contact:hover{
+    background-color: #666666;
+    color: white;
+    transition: all 0.1s ease-in-out;
+}
+.contact .contact-text{
+    padding-left: 43px;
+}
+.contact .address{
+    list-style: none;
+    padding-left: 0;
+    padding-top: 57px;
+    font-size: 19px;
+}
+.footer{
+    justify-content: center;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .carousel-captions {
+        display: none;
+    }
+    .mac .mac-item{
+        flex-direction: column;
+    }
+    .mac .col-lg-4{
+        padding: 15px;
+    }
+    
+}
